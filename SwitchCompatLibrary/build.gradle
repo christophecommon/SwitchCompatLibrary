@@ -33,4 +33,8 @@ android {
 
         instrumentTest.setRoot('tests')
     }
+
+	lintOptions {
+		abortOnError false
+	}
 }
