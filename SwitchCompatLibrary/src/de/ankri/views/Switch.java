@@ -209,7 +209,7 @@ public class Switch extends CompoundButton
 
 		int typefaceIndex, styleIndex;
 
-		typefaceIndex = appearance.getInt(R.styleable.TextAppearanceSwitch_typeface, -1);
+		typefaceIndex = appearance.getInt(R.styleable.TextAppearanceSwitch_switchTypeface, -1);
 		styleIndex = appearance.getInt(R.styleable.TextAppearanceSwitch_textStyle, -1);
 
 		setSwitchTypefaceByIndex(typefaceIndex, styleIndex);
